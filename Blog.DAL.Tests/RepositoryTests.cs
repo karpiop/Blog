@@ -25,6 +25,7 @@ namespace Blog.DAL.Tests
             var result = repository.GetAllPosts();
             // assert
             Assert.AreEqual(0, result.Count());
+            //ten commit ma triggerowac
         }
     }
 }
